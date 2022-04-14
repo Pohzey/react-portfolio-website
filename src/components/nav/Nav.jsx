@@ -5,17 +5,19 @@ import {AiOutlineUser} from 'react-icons/ai'
 import {BiBrain} from 'react-icons/bi'
 import {GoBook} from 'react-icons/go'
 import {BiMessageSquareDetail} from 'react-icons/bi'
+import {useState} from 'react'
 
-const nav = () => {
+const Nav = () => {
+  const [activeNav, setActiveNav] = useState('#')
   return (
     <nav>
-      <a href="#"><AiOutlineHome/></a>
-      <a href="#about"><AiOutlineUser/></a>
-      <a href="#experience"><BiBrain/></a>
-      <a href="#portfolio"><GoBook/></a>
-      <a href="#contact"><BiMessageSquareDetail/></a>
+      <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiOutlineHome/></a>
+      <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser/></a>
+      <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><BiBrain/></a>
+      <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><GoBook/></a>
+      <a href="#contact" onClick={() => setActiveNav('#about')} className={activeNav === '#contact' ? 'active' : ''}><BiMessageSquareDetail/></a>
     </nav>
   )
 }
 
-export default nav
+export default Nav
