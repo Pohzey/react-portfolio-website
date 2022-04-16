@@ -11,7 +11,7 @@ const contact = () => {
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
-              <SiGmail />
+              <SiGmail className='contact__option-icon' />
             <h4>Email</h4>
             <h5>agcoxweb@gmail.com</h5>
             <a href="mailto:agcoxweb@gmail.com" target="_blank">Send message</a>

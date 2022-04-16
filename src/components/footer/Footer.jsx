@@ -20,6 +20,10 @@ const footer = () => {
         <a href="https://linkedin.com"><BsLinkedin /></a>
         <a href="https://linkedin.com"><BsLinkedin /></a>
       </div>
+
+      <div className="footer__copyright">
+        <small>&copy; Anthony Cox. 2022</small>
+      </div>
     </footer>
   )
 }
