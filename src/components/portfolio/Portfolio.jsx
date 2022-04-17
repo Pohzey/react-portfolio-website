@@ -40,7 +40,7 @@ const Portfolio = () => {
           </div>
           <h3>A JOURNEY THROUGH THE SOLAR SYSTEM</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com" target="_blank" className='btn'>GitHub</a>
+          <a href="https://github.com/Pohzey/Solar-System-Skrollr" target="_blank" className='btn'>GitHub</a>
           <a href="https://dtc-wsuv.org/acox21/narrative/" target="_blank" className='btn'>Live Demo</a>
           </div>
         </article>
@@ -51,7 +51,7 @@ const Portfolio = () => {
           </div>
           <h3>POINT LOCATOR USING MAPBOX API</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com" target="_blank" className='btn'>GitHub</a>
+          <a href="https://github.com/Pohzey/Mapbox-Yellowstone-GPS" target="_blank" className='btn'>GitHub</a>
           <a href="https://dtc-wsuv.org/acox21/mapproject/" target="_blank" className='btn'>Live Demo</a>
           </div>
         </article>
