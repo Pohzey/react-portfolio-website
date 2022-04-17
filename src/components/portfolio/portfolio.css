@@ -15,7 +15,7 @@
 .portfolio__item:hover {
     border-color: var(--color-primary-variant);
     background: transparent;
-    
+    color: var(--color-card-bg);
 }
 
 .portfolio__item-image {
@@ -26,6 +26,7 @@
 
 .portfolio__item h3 {
     margin: 1.2rem 0 2rem;
+    color: var(--color-white);
 }
 
 .portfolio__item-cta {

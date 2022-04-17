@@ -28,7 +28,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
-    width: 92%;
+    width: 100%;
 }
 
 .about__card {
@@ -58,7 +58,7 @@
 
 .about__card small {
     font-size: 0.7rem;
-    color: var(--color-light);
+    color: var(--color-text);
 }
 
 .about__content p {

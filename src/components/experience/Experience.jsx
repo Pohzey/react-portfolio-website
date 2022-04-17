@@ -34,7 +34,7 @@ const Experience = () => {
             </article>
             <article className="experience__details">
               <AiFillCheckCircle className='experience__details-icon' />
-              <div><h4>C#</h4></div>
+              <div><h4>NodeJS</h4></div>
             </article>
           </div>
         </div>
