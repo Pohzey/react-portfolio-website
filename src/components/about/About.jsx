@@ -20,17 +20,17 @@ const about = () => {
 
         <div className="about__content">
           <div className="about__cards">
-            <article className="about__card">
+            <a href="#experience" className="about__card">
               <BiBrain className='about__icon' />
               <h5>Skills</h5>
-              <small>What I Can Do</small>
-            </article>
+              <small>What I Can Do</small></a>
+            
 
-            <article className="about__card">
+            <a href="#portfolio" className="about__card">
               <GoBook className='about__icon' />
               <h5>Portfolio</h5>
               <small>6+ Projects Completed</small>
-            </article>
+            </a>
           </div>
 
           <p>I am a Front-End Web Developer with experience in Multimedia Design. A passion for technology and a desire to create cool things on the web. Motivated, driven, eager to learn and adapt to new experiences. I am always looking to expand my capabilities within the digital world in creating engaging experiences, helping people tap into the evolving world of the internet, and pushing the edge of web design forward. My resume is accessible through the button at the top of the page.

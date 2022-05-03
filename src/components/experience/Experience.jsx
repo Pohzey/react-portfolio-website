@@ -44,7 +44,7 @@ const Experience = () => {
           <div className="experience__content">
             <article className="experience__details">
               <AiFillCheckCircle className='experience__details-icon' />
-              <div><h4>Node JS</h4></div>
+              <div><h4>Multimedia</h4></div>
             </article>
             <article className="experience__details">
               <AiFillCheckCircle className='experience__details-icon' />
