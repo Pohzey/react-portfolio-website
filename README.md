@@ -1,2 +1,2 @@
-# react-portfolio-website-1
- 
+My personal react portfolio.
+First time using react and node.
