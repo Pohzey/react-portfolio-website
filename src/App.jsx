@@ -24,6 +24,8 @@ const App = () => {
 //Sources and TutorialsAll icons from https://react-icons.github.io/react-icons/
     //https://www.w3schools.com/react/
     //https://nodejs.org/en/knowledge/getting-started/npm/what-is-npm/
+    //https://www.youtube.com/watch?v=Dorf8i6lCuk React Crash Course
+    
     
 
 export default App
